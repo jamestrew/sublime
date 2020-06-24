@@ -6,10 +6,32 @@
 	[
 		"Vintage"
 	],
+	"draw_minimap_border": true,
+	"draw_white_space": "none",
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets_content": false,
+	"match_selection": false,
+	"match_tags": false,
+	"material_theme_accent_graphite": true,
+	"material_theme_compact_sidebar": true,
+	"mini_diff": false,
 	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": false,
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"show_definitions": true,
+	"show_encoding": true,
+	"show_errors_inline": true,
+	"show_full_path": true,
+	"sidebar_default": true,
+	"swallow_startup_errors": true,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"word_wrap": false
 }
 
 //anaconda
