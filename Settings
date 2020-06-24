@@ -1,0 +1,43 @@
+
+//settings
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
+//anaconda
+{
+    "auto_formatting": true,
+    "auto_formatting_timeout": 5,
+    "autoformat_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    "pep8_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    //"anaconda_gutter_theme": "dark",
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": false,
+}
+
+//binds
+[
+    { "keys": ["alt+c"], "command": "cancel_build" },
+    {"keys": ["ctrl+alt+t"], "command": "terminus_open"},
+    {"keys": ["ctrl+alt+b"], "command": "run_existing_window_command", "args":
+    {
+        "id": "repl_python_run",
+        "file": "config/Python/Main.sublime-menu"
+    }}
+]
